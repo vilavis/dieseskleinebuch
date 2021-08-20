@@ -113,7 +113,7 @@ div {
 }
 
 body {
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 header {
@@ -122,17 +122,16 @@ header {
     background-size: cover;
     background-position: center right;
     height: 1050px;
-	width: 100vw;
+	width: 100%;
 }
 
 header img {
     width: 600px;
-    padding-top: 50px;
-    height: fit-content;
-    align-self: center;
-    justify-self: right;
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.1))
             drop-shadow(15px 15px 15px rgba(0,0,0,0.05));
+    position: absolute;
+    top: 450px;
+    right: 50px;
 }
 
 nav {
@@ -154,6 +153,7 @@ nav a {
     color: white;
     letter-spacing: 1px;
     text-decoration: none;
+    font-weight: 500;
 }
 nav a:hover {
     text-decoration: underline;
@@ -163,12 +163,13 @@ nav a:hover {
     z-index: 3;
     margin: 0px;
     padding: 0px;
+    height: 300px;
 }
 
 .T1 h1 {
     color: white;
     font-size: clamp(5rem, 15vw, 9rem); 
-    font-weight: 'regular';
+    font-weight: 500;
     line-height: inherit;
     padding: 40px;
     letter-spacing: -0.5px;
@@ -191,7 +192,7 @@ section {
     padding: 0px;
     font-size: 44px;
     line-height: 1.2;
-    font-weight: normal;
+    font-weight: 400;
     color:gray;
     z-index: 4;
     max-width: 90%;
@@ -208,7 +209,7 @@ section {
 .chunk:hover .p {color: #E3654D;}
 .chunk:hover .l {
     color: black;
-    font-weight: lighter;}
+    font-weight: 200;}
 
 /* SPAN STYLES END */
 .container-one {
@@ -354,7 +355,7 @@ section {
     padding-bottom: 0px;
     letter-spacing: -0,3px;
     filter: opacity(20%);
-    font-weight: normal;
+    font-weight: 400;
 }
 .news p {
     max-width: 90%;
@@ -364,7 +365,7 @@ section {
     padding-top: 10px;
     font-size: 18px;
     line-height: 1.5;
-    font-weight: normal;
+    font-weight: 400;
 }
 .button {
     padding: 0px 0px 100px 0px;
@@ -476,7 +477,7 @@ section {
 h1 {
     font-size: 40px;
     line-height: 1.5;
-    font-weight: normal;
+    font-weight: 500;
     padding-bottom: 5px;
     margin: 0px;
     letter-spacing: 0.3pt;
@@ -485,7 +486,7 @@ h1 {
 h2 {
     font-size: 34px;
     line-height: 1.2;
-    font-weight: normal;
+    font-weight: 500;
     padding-top: 30px;
     padding-bottom: 0px;
 }
@@ -493,7 +494,7 @@ h2 {
 h3 {
     font-size: 28px;
     line-height: 1.5;
-    font-weight: medium;
+    font-weight: 500;
     padding-bottom: 0px;
     margin: 0px;
     letter-spacing: 0.3pt;
@@ -501,7 +502,7 @@ h3 {
 h4 {
     font-size: 1.2rem;
     line-height: inherit;
-    font-weight: normal;
+    font-weight: 500;
     padding-bottom: 0px;
     padding-top: 30px;
     margin: 0px;
@@ -511,7 +512,7 @@ h4 {
 p {
     font-size: 18px;
     line-height: 1.5;
-    font-weight: normal;
+    font-weight: 400;
     margin: 0px;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -533,12 +534,20 @@ p {
 }
 /* RESPONSIVE */
 
+@media only screen and (max-width: 700px) {
+    header img {        
+        right: 0;
+        left: 0;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
 
     body {
         justify-content: center;
         width: 100vw;
     }
+
     header {
         background-image: none;
         background-size: contain;
@@ -546,6 +555,9 @@ p {
         background-repeat: no-repeat;
         width: 100%;
     }
+
+    
+
     .intro p {
         margin-top: 250px;
         font-size: 36px;
@@ -565,7 +577,7 @@ p {
     }
 }
 
-
+/* 
 @media only screen and (max-width: 500px) {
 
     html {
@@ -663,6 +675,6 @@ p {
 
     .email-kontakt {
         margin: 10% 0px;
-    }
+    } */
 
 }

@@ -324,7 +324,7 @@ section {
     background-color: #9F52BB;
     width: 100%;
     color: white;
-    display: inline-flex;
+    display: block;
     align-content: center;
     padding-block: 180px;
 }
@@ -340,35 +340,25 @@ section {
 
 .title-aktuelles {
     margin-left: 30px;
-    width: 230px;
 }
 .news {
-    margin: 150px 100px 0px 0px;
     text-align: left;
-    max-width: 40vw;
+    position: relative;
+    left: 30vw;
+    width: 50%;
     flex-wrap: wrap;
-    overflow-wrap: break-word;
 }
 
-.news img {
-    margin: 40px 0px 0px 0px;
-    height: 250px;
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.08))
-            drop-shadow(10px 10px 10px rgba(0,0,0,0.08));
-}
 .news h1 {
     padding-top: 80px;
-    padding-bottom: 0px;
     letter-spacing: -0,3px;
-    filter: opacity(20%);
-    font-weight: 400;
+    filter: opacity(10%);
+    font-weight: 500;
+    font-size: 20vw;
 }
 .news p {
-    max-width: 90%;
-    text-align: left;
-    margin: 0;
     padding-bottom: 50px;
-    padding-top: 10px;
+    padding-top: 0px;
     font-size: 18px;
     line-height: 1.5;
     font-weight: 400;
@@ -392,11 +382,8 @@ section {
 .container-hintergrund {
     background-color: #FE9124;
     color: white;
-    display: inline-flex;
-    align-content: center;
-    margin: 0 px;
+    display: block;
     padding-block: 180px;
-	width: 100%;
 }
 .title-hintergrund {
     margin-left: 30px;
@@ -404,21 +391,18 @@ section {
 }
 .autorin {
     margin-top: 80px;
-    text-align: left;
 }
 .beteiligte {
     margin-top: 50px;
-     text-align: left;
 }
 .beteiligte p {
-    padding-bottom: 0px;
+    padding-bottom: 20px;
+    font-weight: 200;
 }
 .container-kontakt {
     background-color:#F75247;
     color: white;
-    display: inline-flex;
-    align-content: center;
-    margin: 0 auto;
+    display: block;
     width: 100%;
     padding-block: 180px;
 }
@@ -429,11 +413,14 @@ section {
 .kontakt {
     margin-top: 150px;
     text-align: left;
+    position: relative;
+    left: 30vw;
+    max-width: 80%;
 }
 .kontakt p {
-    max-width: 40%;
+    width: fit-content;
     text-align: left;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .kontakt a {
@@ -442,6 +429,7 @@ section {
 }
 .email-kontakt {
     border-radius: 30px;
+    border-width: medium;
     border: 1px solid white;
     padding: 10px 20px;
     cursor: pointer;
@@ -483,7 +471,7 @@ section {
 h1 {
     font-size: 40px;
     line-height: 1.5;
-    font-weight: 500;
+    font-weight: 400;
     padding-bottom: 5px;
     margin: 0px;
     letter-spacing: 0.3pt;
@@ -493,26 +481,25 @@ h2 {
     font-size: 34px;
     line-height: 1.2;
     font-weight: 500;
-    padding-top: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-size: 28px;
     line-height: 1.5;
-    font-weight: 500;
+    font-weight: 400;
     padding-bottom: 0px;
     margin: 0px;
     letter-spacing: 0.3pt;
 }
 h4 {
-    font-size: 1.2rem;
+    font-size: 24px;
     line-height: inherit;
-    font-weight: 500;
-    padding-bottom: 0px;
-    padding-top: 30px;
+    font-weight: 200;
+    padding-bottom: 20px;
+    padding-top: 50px;
     margin: 0px;
-    letter-spacing: 0.3pt;
+    letter-spacing: 0.9pt;
 }
 
 p {

@@ -116,12 +116,8 @@ div {
     width: 100%;
 }
 
-body {
-    /* width: 100vw; */
-}
-
 header {
-    background-color: #9F52BB;
+    background-color: #7e3a97;
     background-image: none;
     background-size: cover;
     background-position: center right;
@@ -153,11 +149,11 @@ nav {
 }
 
 nav a {
-    font-size: clamp(0.75rem, 5vw, 1rem); 
+    font-size: 1rem; 
     color: white;
     letter-spacing: 1px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
 }
 nav a:hover {
     text-decoration: underline;
@@ -185,9 +181,11 @@ section {
 }
 
 .intro {
-    margin: 0px;
+    margin-bottom: 100px;
     padding: 0px;
     z-index: 5;
+    display: flex;
+    justify-content: center;
 }
 
 .intro p {
@@ -195,12 +193,13 @@ section {
     margin-left: 50px;
     padding: 0px;
     font-size: 44px;
-    line-height: 1.2;
+    line-height: 1.15;
     font-weight: 400;
     color:gray;
     z-index: 4;
-    max-width: 90%;
+    max-width: 70%;
     align-self: baseline;
+    text-align: center;
 }
 
 /* SPAN STYLES START */
@@ -218,12 +217,13 @@ section {
 /* SPAN STYLES END */
 .container-one {
     display: flex;
-    padding: 100px 0px 100px 0px;
+    padding: 80px 0px;
     align-items: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .wrapper-one {
-    width: 45%;
+    width: 40%;
     max-width: 600px;
     min-width: 350px;
     margin-left: 30px;
@@ -263,7 +263,7 @@ section {
 
 .container-two {
     display: flex;
-    padding: 100px 0px;
+    padding: 80px 0px;
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
@@ -271,47 +271,49 @@ section {
 }
 
 .wrapper-two {
-    width: 45%;
+    width: 40%;
     max-width: 600px;
-    min-width: 350px;
+    min-width: 300px;
     margin: 0px 30px;
     text-align: right;
 }
 .container-three {
     color:black;
-    display: flex;
-    padding: 100px 0px 200px 0px;
+    padding: 200px 0px;
     flex-wrap: wrap;
-    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .wrapper-three {
-    width: 45%;
-    max-width: 600px;
-    min-width: 350px;
-    padding-top: 50px;
+    width: 50%;
+    min-width: 300px;
+    padding-top: 100px;
     height: fit-content;
-    text-align: left;
-    margin-left: 30px;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .carrosel {
     display: inline-flex;
     flex-wrap: wrap;
-    width: 50vw;
-    min-width: 500px;
+    width: 90%;
+    min-width: 300px;
     align-items: center;
     justify-content: center;
 }
 .carrosel-frame {
-    width: clamp(150px, 16vw, 400px);
-    height: clamp(150px, 16vw, 400px);
-    margin: 10px;
+    width: clamp(150px, 16vw, 200px);
+    height: clamp(150px, 16vw, 200px);
+    margin: 20px;
     background-color: #fafafa;
     border-radius: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
+    filter: drop-shadow(-3px -3px 2px rgba(255,255,255,0.2))
+            drop-shadow(5px 5px 5px rgba(0,0,0,0.05))
+            drop-shadow(10px 10px 10px rgba(0,0,0,0.05));
 }
 .carrosel-frame img {
     width: 50%;
@@ -526,8 +528,8 @@ p {
 .frame {
     background-color: #fafafaee;
     margin: 30px;
-    width: clamp(300px, 35vw, 800px);
-    height: clamp(300px, 35vw, 800px);
+    width: clamp(300px, 35vw, 500px);
+    height: clamp(300px, 35vw, 500px);
     border-radius: 15%;
     display: flex;
     align-items: center;
@@ -680,5 +682,3 @@ p {
     .email-kontakt {
         margin: 10% 0px;
     } */
-
-}

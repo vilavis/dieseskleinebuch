@@ -192,7 +192,7 @@ section {
     margin-top: 350px;
     margin-left: 50px;
     padding: 0px;
-    font-size: 44px;
+    font-size: 30px;
     line-height: 1.15;
     font-weight: 400;
     color:gray;
@@ -218,7 +218,7 @@ section {
 .container-one {
     display: flex;
     padding: 80px 0px;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -227,17 +227,22 @@ section {
     max-width: 600px;
     min-width: 350px;
     margin-left: 30px;
-    align-items: baseline;
    }
 /* BUTTONS START */
+.buttons {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
 .buttons button {
-    margin: 20px 0px;
+    margin: 0px 5px;
     height: 30px;
-    width: 90px;
+    width: 80px;
     border-radius: 30px;
     border: 1px solid;
     color: white;
     text-overflow: clip;
+    background-color: #f0f0f0;
 }
 #maskulin:hover {
     background-color: #55B979;
@@ -524,6 +529,10 @@ p {
     filter: drop-shadow(-3px -3px 2px rgba(255,255,255,0.2))
             drop-shadow(5px 5px 5px rgba(0,0,0,0.05))
             drop-shadow(10px 10px 10px rgba(0,0,0,0.05));
+}
+.genus img {
+    width: 90%;
+
 }
 /* RESPONSIVE */
 

@@ -525,7 +525,11 @@ p {
 }
 .frame img {
     width: 90%;
-    margin: auto;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0px;
+        right: 0px;
 
 }
 /* RESPONSIVE */

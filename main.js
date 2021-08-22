@@ -19,7 +19,7 @@ maskulin.addEventListener('click', () => {
 })
 
 reg.addEventListener('click', () => {
-    verb.src = 'anim/Maskulin.gif';
+    verb.src = 'anim/Verb_R.gif';
 })
 
 unreg.addEventListener('click', () => {

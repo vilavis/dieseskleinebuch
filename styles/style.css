@@ -203,7 +203,7 @@ section {
     font-weight: 400;
     color:gray;
     z-index: 4;
-    max-width: 70%;
+    max-width: 80%;
     align-self: baseline;
     text-align: center;
     border: tomato solid 1px;
@@ -310,15 +310,6 @@ section {
     margin: 0px;
 }
 
-.wrapper-three {
-    width: 50%;
-    min-width: 300px;
-    padding-top: 100px;
-    height: fit-content;
-    text-align: center;
-    flex-wrap: wrap;
-}
-
 .carrosel {
     display: inline-flex;
     flex-wrap: wrap;
@@ -385,7 +376,7 @@ section {
     letter-spacing: -0,3px;
     filter: opacity(10%);
     font-weight: 500;
-    font-size: 20vw;
+    font-size: 15vw;
     border: tomato solid 1px;
 }
 .news p {
@@ -450,12 +441,12 @@ section {
     text-align: left;
     position: relative;
     left: 30vw;
-    max-width: 80%;
+    width: 60%;
+    min-width: 200px;
+    border: tomato solid 1px;
 }
-.kontakt p {
-    width: fit-content;
-    text-align: left;
-    margin-bottom: 10px;
+.kontakt section {
+    margin-bottom: 80px;
 }
 
 .kontakt a {
@@ -569,13 +560,27 @@ p {
 }
 /* RESPONSIVE */
 
-@media only screen and (max-width: 700px) {
-    header img {        
+@media only screen and (max-width: 740px) {
+    header img {
+        left: 20px;
         right: 0;
-        left: 0;
+    }
+    
+    .intro p { margin-left: 0; }
+
+    .wrapper {
+        width: 80%;
+        text-align: center!important;
+    }
+
+    .carrosel { width: 70%;}
+    .frame { width: 60vw; height: 60vw; }
+    .news, .kontakt {
+        left: 30px;
+        width: 85%;
     }
 }
-
+/* 
 @media only screen and (max-width: 1000px) {
 
     body {
@@ -612,7 +617,6 @@ p {
     }
 }
 
-/* 
 @media only screen and (max-width: 500px) {
 
     html {

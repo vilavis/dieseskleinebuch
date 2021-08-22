@@ -103,17 +103,20 @@ input, select {
 /* CODE STARTS HERE --- CODE STARTS HERE --- CODE STARTS HERE --- CODE STARTS HERE */
 
 /* SECTIONS */
-html {
-    margin: 0;
-    border: 0;
+html, body {
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    overflow-x: hidden;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
-    width: 100%;
+    border: tomato solid 1px;
 }
 
 div {
     width: 100%;
+    border: tomato solid 1px;
 }
 
 header {
@@ -121,6 +124,7 @@ header {
     background-image: none;
     background-size: cover;
     background-position: center right;
+    position: relative;
     height: 1050px;
 	width: 100%;
 }
@@ -164,6 +168,7 @@ nav a:hover {
     margin: 0px;
     padding: 0px;
     height: 300px;
+    border: tomato solid 1px;
 }
 
 .T1 h1 {
@@ -186,6 +191,7 @@ section {
     z-index: 5;
     display: flex;
     justify-content: center;
+    border: tomato solid 1px;
 }
 
 .intro p {
@@ -200,6 +206,7 @@ section {
     max-width: 70%;
     align-self: baseline;
     text-align: center;
+    border: tomato solid 1px;
 }
 
 /* SPAN STYLES START */
@@ -215,34 +222,49 @@ section {
     font-weight: 200;}
 
 /* SPAN STYLES END */
-.container-one {
+.container {
+    margin: 0px;
+    width: 100%;
     display: flex;
     padding: 80px 0px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    border: tomato solid 1px;
 }
-.wrapper-one {
+.wrapper {
     width: 40%;
     max-width: 600px;
-    min-width: 350px;
-    margin-left: 30px;
+    min-width: 20px;
+    margin: 0px 50px;
+    border: tomato solid 1px;
    }
 /* BUTTONS START */
 .buttons {
     margin: 30px;
     display: flex;
     justify-content: center;
+    border: tomato solid 1px;
+}
+
+.buttons p {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    display: none;
+}
+
+.buttons section {
+    display: block;
+    justify-content: center;
 }
 .buttons button {
-    margin: 0px 5px;
-    height: 30px;
-    width: 80px;
-    border-radius: 30px;
-    border: 1px solid;
-    color: white;
-    text-overflow: clip;
+    margin: 0px 10px;
+    height: 20px;
+    width: 20px;
+    border: none;
     background-color: #f0f0f0;
+    cursor: pointer;
 }
 #maskulin:hover {
     background-color: #55B979;
@@ -266,28 +288,26 @@ section {
 
 /* BUTTONS END */
 
-.container-two {
+.verbs {
+    border: tomato solid 1px;
+    margin: auto;
+    width: clamp(300px, 35vw, 400px);
     display: flex;
-    padding: 80px 0px;
     justify-content: center;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    text-align: right;
 }
 
-.wrapper-two {
-    width: 40%;
-    max-width: 600px;
-    min-width: 300px;
-    margin: 0px 30px;
-    text-align: right;
+.verbs button {
+    border: white;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    margin: 0px 10px;
+    cursor: pointer;
 }
-.container-three {
-    color:black;
-    padding: 200px 0px;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
+.verbs img {
+    height: 30px;
+    width: 30px;
+    margin: 0px;
 }
 
 .wrapper-three {
@@ -306,6 +326,7 @@ section {
     min-width: 300px;
     align-items: center;
     justify-content: center;
+    border: tomato solid 1px;
 }
 .carrosel-frame {
     width: clamp(150px, 16vw, 200px);
@@ -332,11 +353,13 @@ section {
     display: block;
     align-content: center;
     padding-block: 180px;
+    border: tomato solid 1px;
 }
 
 .container-aktuelles a {
     color: white;
     text-decoration: none;
+    border: tomato solid 1px;
 }
 
 .container-aktuelles a:hover {
@@ -345,13 +368,16 @@ section {
 
 .title-aktuelles {
     margin-left: 30px;
+    border: tomato solid 1px;
 }
 .news {
     text-align: left;
     position: relative;
     left: 30vw;
-    width: 50%;
+    width: 65%;
+    max-width: 800px;
     flex-wrap: wrap;
+    border: tomato solid 1px;
 }
 
 .news h1 {
@@ -360,6 +386,7 @@ section {
     filter: opacity(10%);
     font-weight: 500;
     font-size: 20vw;
+    border: tomato solid 1px;
 }
 .news p {
     padding-bottom: 50px;
@@ -389,10 +416,12 @@ section {
     color: white;
     display: block;
     padding-block: 180px;
+    border: tomato solid 1px;
 }
 .title-hintergrund {
     margin-left: 30px;
     width: 230px;
+    border: tomato solid 1px;
 }
 .autorin {
     margin-top: 80px;
@@ -410,6 +439,7 @@ section {
     display: block;
     width: 100%;
     padding-block: 180px;
+    border: rgb(89, 71, 255) solid 1px;
 }
 .title-kontakt {
     margin-left: 30px;
@@ -458,6 +488,7 @@ section {
     padding-bottom: 20px;
     flex-wrap: wrap;
     height: fit-content;
+    border: tomato solid 1px;
 }
 
 .container-nine a {
@@ -518,10 +549,11 @@ p {
 }
 /* OBJECTS */
 .frame {
+    border: tomato solid 1px;
     background-color: #fafafaee;
-    margin: 30px;
-    width: clamp(300px, 35vw, 500px);
-    height: clamp(300px, 35vw, 500px);
+    margin: 20px;
+    width: clamp(300px, 35vw, 400px);
+    height: clamp(300px, 35vw, 400px);
     border-radius: 15%;
     display: flex;
     align-items: center;
@@ -530,8 +562,9 @@ p {
             drop-shadow(5px 5px 5px rgba(0,0,0,0.05))
             drop-shadow(10px 10px 10px rgba(0,0,0,0.05));
 }
-.genus img {
+.frame img {
     width: 90%;
+    margin: auto;
 
 }
 /* RESPONSIVE */

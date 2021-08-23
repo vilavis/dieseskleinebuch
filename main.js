@@ -23,5 +23,5 @@ reg.addEventListener('click', () => {
 })
 
 unreg.addEventListener('click', () => {
-    verb.src = 'anim/Feminin.gif';
+    verb.src = 'anim/Verb_U.gif';
 })

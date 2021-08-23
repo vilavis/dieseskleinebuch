@@ -191,15 +191,15 @@ section {
 }
 
 .intro p {
-    margin-top: 300px;
+    margin-top: 400px;
     margin-left: 50px;
     padding: 0px;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.15;
     font-weight: 400;
     color:gray;
     z-index: 4;
-    max-width: 80%;
+    max-width: 70%;
     align-self: baseline;
     text-align: center;
 }
@@ -399,16 +399,6 @@ section {
 .title-hintergrund {
     margin-left: 30px;
     width: 230px;
-}
-.autorin {
-    margin-top: 80px;
-}
-.beteiligte {
-    margin-top: 50px;
-}
-.beteiligte p {
-    padding-bottom: 20px;
-    font-weight: 200;
 }
 .container-kontakt {
     background-color:#F75247;

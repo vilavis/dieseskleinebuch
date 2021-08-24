@@ -525,6 +525,20 @@ p {
 }
 /* RESPONSIVE */
 
+@media only screen and (max-width: 800px) {
+
+    .carrosel-frame {
+        height: 200px;
+        width: 200px;
+    }
+
+    .three {
+        text-align: center;
+        margin-top: 50px;
+        width: 90%;
+    }
+}
+
 @media only screen and (max-width: 740px) {
     header img {
         display: block;
@@ -544,7 +558,15 @@ p {
         margin: 30px 0px;
     }
 
-    .carrosel { width: 70%;}
+    .carrosel { 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carrosel-frame {
+        height: 200px;
+        width: 200px;
+    }
 
     .frame { width: 60vw; height: 60vw; }
 
@@ -576,7 +598,7 @@ p {
 
     .intro p {
         margin-top: 200px;
-		    font-size: 30px;
+		    font-size: 24px;
 				max-width: 88%;
     }
 		
@@ -612,6 +634,13 @@ p {
     }
 
     .carrosel {
-        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .carrosel-frame {
+        width: 150px;
+        height: 150px;
     }
 }

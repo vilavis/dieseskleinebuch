@@ -192,7 +192,6 @@ section {
 
 .intro p {
     margin-top: 400px;
-    margin-left: 50px;
     padding: 0px;
     font-size: 40px;
     line-height: 1.15;
@@ -578,8 +577,6 @@ p {
     .intro p {
         margin-top: 200px;
 		    font-size: 30px;
-				xmargin-left: 10px;
-				xmargin-right: 10px;
 				max-width: 88%;
     }
 		

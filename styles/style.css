@@ -206,15 +206,13 @@ section {
 
 /* SPAN STYLES START */
 
-.chunk:hover .b {color: black;}
-.b:hover {color: black;}
-.chunk:hover .n {color: #9F52BB;}
-.chunk:hover .m {color: #55B979;}
-.chunk:hover .f {color: #E78A1B;}
-.chunk:hover .p {color: #E3654D;}
-.chunk:hover .l {
-    color: black;
-    font-weight: 200;}
+.chunk:hover .b, .chunk:active .b, .chunk:focus .b {color: black;}
+.b:hover, .b:active,  .b:focus {color: black;}
+.chunk:hover .n, .chunk:active .n, .chunk:focus .n {color: #9F52BB;}
+.chunk:hover .m, .chunk:active .m, .chunk:focus .m {color: #55B979;}
+.chunk:hover .f, .chunk:active .f, .chunk:focus .f {color: #E78A1B;}
+.chunk:hover .p, .chunk:active .p, .chunk:focus .p {color: #E3654D;}
+.chunk:hover .l, .chunk:active .l, .chunk:focus .l {color: black; font-weight: 200;}
 
 /* SPAN STYLES END */
 .container {
@@ -258,6 +256,7 @@ section {
     background-color: #f0f0f0;
     cursor: pointer;
 }
+
 #maskulin:hover {
     background-color: #55B979;
     border-color: #55B979;
@@ -578,8 +577,12 @@ p {
 
     .intro p {
         margin-top: 200px;
+		    font-size: 30px;
+				xmargin-left: 10px;
+				xmargin-right: 10px;
+				max-width: 88%;
     }
-
+		
     .container {
         padding: 0px;
         margin: 100px 0px;

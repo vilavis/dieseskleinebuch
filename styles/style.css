@@ -302,7 +302,7 @@ section {
 
 .carrosel {
     display: flex;
-    width: 90%;
+    xwidth: 90%;
     align-items: center;
     justify-content: center;
 }
@@ -637,7 +637,7 @@ p {
     .carrosel {
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        xwidth: 90%;
     }
 
     .carrosel-frame {

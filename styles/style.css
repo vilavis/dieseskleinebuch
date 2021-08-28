@@ -118,7 +118,7 @@ div {
 }
 
 header {
-    background-color: #7e3a97;
+    background-color: #9141ad;
     background-image: none;
     background-size: cover;
     background-position: center right;
@@ -324,7 +324,7 @@ section {
     align-self: center;
 }
 .container-aktuelles {
-    background-color: #9F52BB;
+    background-color: #9141ad;
     width: 100%;
     color: white;
     display: block;

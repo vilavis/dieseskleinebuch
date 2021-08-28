@@ -231,50 +231,43 @@ section {
    }
 /* BUTTONS START */
 .buttons {
-    margin: 30px;
+    margin: 30px 0px;
     display: flex;
     justify-content: center;
 }
 
 .buttons p {
-    font-size: 12px;
+    font-size: 11px;
     text-align: center;
-    padding-top: 5px;
-    display: none;
+    color: white;
+    padding: 10px 0px 0px 0px;
 }
 
 .buttons section {
     display: block;
-    justify-content: center;
+    justify-items: center;
+    margin: 0px;
+    width: 50px;
 }
 .buttons button {
-    margin: 0px 10px;
+    background-color: #f0f0f0;
     height: 20px;
     width: 20px;
     border: none;
-    background-color: #f0f0f0;
     cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    right: 0px;
 }
 
-#maskulin:hover {
-    background-color: #55B979;
-    border-color: #55B979;
-}
-
-#neutral:hover {
-    background-color: #9F52BB;
-    border-color: #9F52BB;
-}
-
-#feminin:hover {
-    background-color: #E78A1B;
-    border-color: #E78A1B;
-}
-
-#plural:hover {
-    background-color: #F75247;
-    border-color: #F75247;
-}
+.maskulin:hover p, .maskulin:active p, .maskulin:focus p {color: gray;}
+.maskulin:hover #maskulin, .maskulin:active #maskulin, .maskulin:focus #maskulin {background-color: #55B979; border-color: #55B979;}
+.neutral:hover p, .neutral:active p, .neutral:focus p {color: gray;}
+.neutral:hover #neutral, .neutral:active #neutral, .neutral:focus #neutral {background-color: #9F52BB; border-color: #9F52BB;}
+.feminin:hover p, .feminin:active p, .feminin:focus p {color: gray;}
+.feminin:hover #feminin, .feminin:active #feminin, .feminin:focus #feminin {background-color: #E78A1B; border-color: #E78A1B;}
 
 /* BUTTONS END */
 

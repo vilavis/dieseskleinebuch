@@ -236,7 +236,7 @@ section {
     justify-content: center;
 }
 
-.buttons p {
+.buttons p, .verbs p {
     font-size: 11px;
     text-align: center;
     color: white;
@@ -269,8 +269,6 @@ section {
 .feminin:hover p, .feminin:active p, .feminin:focus p {color: gray;}
 .feminin:hover #feminin, .feminin:active #feminin, .feminin:focus #feminin {background-color: #E78A1B; border-color: #E78A1B;}
 
-/* BUTTONS END */
-
 .verbs {
     margin: auto;
     width: clamp(300px, 35vw, 400px);
@@ -284,14 +282,22 @@ section {
     background-color: white;
     height: 30px;
     width: 30px;
-    margin: 0px 10px;
-    cursor: pointer;
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    right: 0px;
+    margin-top: 10px;
+    cursor: pointer; }
+
 .verbs img {
     height: 30px;
     width: 30px;
     margin: 0px;
 }
+
+.reg:hover p, .reg:active p, .reg:focus p {color: gray;}
+.unreg:hover p, .unreg:active p, .unreg:focus p {color: gray;}
 
 .carrosel {
     display: flex;

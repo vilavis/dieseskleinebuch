@@ -7,21 +7,21 @@ let unreg = document.querySelector('#unreg');
 let verb = document.querySelector('#verb');
 
 feminin.addEventListener('click', () => {
-    genus.src = 'anim/Feminin.gif';
+    genus.src = '../anim/Feminin.gif';
 })
 
 neutral.addEventListener('click', () => {
-    genus.src = 'anim/Neutrum.gif';
+    genus.src = '../anim/Neutrum.gif';
 })
 
 maskulin.addEventListener('click', () => {
-    genus.src = 'anim/Maskulin.gif';
+    genus.src = '../anim/Maskulin.gif';
 })
 
 reg.addEventListener('click', () => {
-    verb.src = 'anim/Verb_R.gif';
+    verb.src = '../anim/Verb_R.gif';
 })
 
 unreg.addEventListener('click', () => {
-    verb.src = 'anim/Verb_U.gif';
+    verb.src = '../anim/Verb_U.gif';
 })

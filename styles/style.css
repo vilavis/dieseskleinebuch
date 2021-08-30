@@ -321,35 +321,16 @@ section {
             drop-shadow(10px 10px 10px rgba(0,0,0,0.05));
 }
 .carrosel-frame img {
-    width: 50%;
+    width: 100%;
     display: flex;
-    align-self: center;
+    position: center;
 }
 
-#wortart {
-    background-image: url(../images/Substantiv.png);
-}
-#wortart:hover, #wortart:active, #wortart:focus {
-    background-image: url(../images/Substantiv2.gif);
-}
-#deklination {
-    background-image: url(../images/Nominativ.png);
-}
-#deklination:hover, #deklination:active, #deklination:focus {
-    background-image: url(../images/Nominativ2.gif);
-}
-#steigerung {
-    background-image: url(../images/Steigerung.png);
-}
-#steigerung:hover, #steigerung:active, #steigerung:focus {
-    background-image: url(../images/Steigerung2.gif);
-}
-#konjugation {
-    background-image: url(../images/Konjugation.png);
-}
-#konjugation:hover, #konjugation:active, #konjugation:focus {
-    background-image: url(../images/Konjugation2.gif);
-}
+#wortart:hover, #wortart:active, #wortart:focus { content: url(../images/Substantiv2.gif);}
+#deklination:hover, #deklination:active, #deklination:focus { content: url(../images/Nominativ2.gif);}
+#steigerung:hover, #steigerung:active, #steigerung:focus { content: url(../images/Steigerung2.gif);}
+#konjugation:hover, #konjugation:active, #konjugation:focus { content: url(../images/Konjugation2.gif);}
+
 .container-aktuelles {
     background-color: #9141ad;
     width: 100%;

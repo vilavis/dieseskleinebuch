@@ -365,6 +365,43 @@ section {
     max-width: 700px;
     flex-wrap: wrap;
 }
+
+.container4 {
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    height: fit-content;
+    display: inline-flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: #fcfafa;
+}
+
+.exemplare {
+    width: 50%;
+    max-width: 70%;
+    min-width: 400px;
+    margin: 0px;
+    padding: 0px;
+    height: 400px; 
+    justify-self: left;
+    background-image: url(/images/05.jpg);   
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.wrapper4 {
+    width: 40%;
+    max-width: 550px;
+    margin: 0px 50px;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    padding-top: 50px;
+   }
+
 .modal {
     position: fixed;
     top: 50%;
@@ -384,20 +421,21 @@ section {
 }
 
 .newsletter {
-    border: 1px solid white;
+    border: 1px solid #E3654D;
     border-radius: 30px;
-    padding: 10px 20px;
-    font-size: 12px;
+    padding: 12px 25px;
+    font-size: 14px;
     cursor: pointer;
-    background-color: #9F52BB;
+    background-color: #E3654D;
     color: white;
-    margin-bottom: 50px;
-    margin-top: 10px;
+    margin-bottom: 70px;
+    margin-top: 30px;
 }
 
 .newsletter:hover {
-    background-color: white;
-    color: #9F52BB;
+    background-color: #9F52BB;
+    border: 1px solid #9F52BB;
+    color: white;
     text-decoration: none;
     cursor: pointer;
 }
@@ -448,23 +486,25 @@ section {
     font-weight: 400;
 }
 .button {
-    padding: 0px 0px 100px 0px;
+    padding: 15px 0px 100px 0px;
 }
 .PDFdownload {
-    border: 1px solid white;
+    border: 1px solid #E78A1B;
+    background-color: #E78A1B;
     border-radius: 30px;
     cursor: pointer;
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
 }
 .PDFdownload:hover {
-    background-color: white;
-    color: #9F52BB;
+    background-color: #55B979;
+    border: 1px solid #55B979;
+    color: white;
     text-decoration: none;
 }
 
 .container-hintergrund {
-    background-color: #FE9124;
+    background-color: #E78A1B;
     color: white;
     display: block;
     padding-block: 180px;
@@ -474,7 +514,7 @@ section {
     width: 230px;
 }
 .container-kontakt {
-    background-color:#F75247;
+    background-color:#f34545;
     color: white;
     display: block;
     width: 100%;

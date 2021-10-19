@@ -421,20 +421,20 @@ section {
 }
 
 .newsletter {
-    border: 1px solid #E3654D;
+    border: 1px solid #E78A1B;
+    background-color: #E78A1B;
     border-radius: 30px;
     padding: 12px 25px;
     font-size: 14px;
     cursor: pointer;
-    background-color: #E3654D;
     color: white;
     margin-bottom: 70px;
     margin-top: 30px;
 }
 
 .newsletter:hover {
-    background-color: #9F52BB;
-    border: 1px solid #9F52BB;
+    background-color: #E3654D;
+    border: 1px solid #E3654D;
     color: white;
     text-decoration: none;
     cursor: pointer;
@@ -459,6 +459,7 @@ section {
 
 .close-button {
     position: absolute;
+    display: flex;
     cursor: pointer;
     padding: 10px 20px;
     background-color: #9F52BB;
@@ -640,7 +641,41 @@ p {
 }
 /* RESPONSIVE */
 
+@media only screen and (max-width: 1000px) {
+
+.exemplare {
+    width: 45%;
+}
+.wrapper4 {
+    width: 40%;
+    margin: 0px;
+    margin-left: 5%;
+    justify-content: center;
+}
+}
+
 @media only screen and (max-width: 800px) {
+.container4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+}
+    .exemplare {
+        width: 300px;
+        height: 300px;
+        margin: 80px 0px 0px 0px;
+        min-width: none;
+        justify-self: center;
+        border: 2px solid #fcfafa;
+        border-radius: 5%;
+    }
+
+    .wrapper4 {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
 
     .carrosel-frame {
         height: 200px;
@@ -817,6 +852,19 @@ p {
             font-size: 16px;
             font-weight: 400;
             line-height: 1.25;
+        }
+
+        .exemplare {
+            border: none;
+            border-radius: 0px;
+        }
+
+        .wrapper4 h2 {
+            font-size: 24px;
+        }
+
+        .wrapper4 p {
+            font-size: 16px;
         }
 
         .news, .kontakt {

@@ -19,7 +19,7 @@
 	<meta property="og:url" content="https://www.dieseskleinebuch.de" />
 	<meta property="og:image" content="https://www.dieseskleinebuch.de/images/preview.png">
 
-	<link rel="stylesheet" href="styles/style.css?Version=2">
+	<link rel="stylesheet" href="styles/style.css?Version=3">
 	<script src="https://kit.fontawesome.com/339a52c194.js" crossorigin="anonymous"></script>
 	<style>
 		@font-face {
@@ -268,19 +268,31 @@
 	</div>
 	<div class="container-kontakt" id="kontakt">
 		<h1 class="title-kontakt">Kontakt</h1>
-		<section class="kontakt">
-			<section>
+		<section class="kontakt-grid">
+			<section class="kontakt">
 				<h3>Wir freuen uns über Feedback, Kritik und Fragen von dir!</h3>
-			</section>
-			<section>
 				<p><i class="far fa-envelope"></i>&nbsp;<a
 						href="mailto:kontakt@dieseskleinebuch.de">kontakt@dieseskleinebuch.de</a></p>
-				<p><a href="https://www.instagram.com/dieseskleinebuch/"><i
-							class="fab fa-instagram"></i>&nbsp;dieseskleinebuch</a></p>
-				<p><a href="https://twitter.com/hashtag/dieseskleinebuch/"><i
+			<p><a href="https://twitter.com/hashtag/dieseskleinebuch/"><i
 							class="fab fa-twitter"></i>&nbsp;#dieseskleinebuch</a></p>
-			</section>
+			<p><a href="https://www.instagram.com/dieseskleinebuch/"><i
+					class="fab fa-instagram"></i>&nbsp;dieseskleinebuch</a></p>
 		</section>
+		<section class="feed">		
+				<div id="instafeed-container"></div>
+				<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+				<script type="text/javascript">
+					var userFeed = new Instafeed({
+						get: 'user',
+						target: "instafeed-container",
+						resolution: 'low_resolution',
+						accessToken: 'IGQVJVOHlVQ0ZAXWlltWm1YSzAydDVhNWNSWEM1NUswVnQxOXBEZAEh2TVBncjJpNi1JMGUxSnFUSVBlSm1fWDF2ZA2VjeU1Hazl4d3hjQWpIcEVneEIzSXE2THhKQnplTjllX3B3SEFmcUEyYXRGbUZAJdwZDZD'
+					});
+					userFeed.run();
+					</script>
+		</section>
+		</section>
+	</section>
 	</div>
 	<section class="forderung">
 		<p>Zusammenarbeit & Förderung</p>

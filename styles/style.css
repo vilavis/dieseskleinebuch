@@ -343,6 +343,7 @@ section {
     display: block;
     align-content: center;
     padding-block: 180px;
+		margin-top: -5px;
 }
 
 .container-aktuelles a {

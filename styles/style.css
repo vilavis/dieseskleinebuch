@@ -148,6 +148,7 @@ nav {
     padding: 0px;
     margin: 0px 30px;
     text-align: center;
+    color: white;
 }
 
 nav a {
@@ -161,7 +162,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#EN {
+#EN #PT {
     font-weight: 500;
     font-size: 14px;
 }
@@ -888,6 +889,10 @@ p {
         width: 110px;
         margin: 0.5vw;
     }
+
+    #T1PT {
+        font-size: 65px;
+    }
   
     @media only screen and (max-width: 400px) {
 
@@ -906,6 +911,12 @@ p {
         }
 
         .T1 h1 {
+            font-size: 50px;
+            line-height: 1.15;
+            letter-spacing: 1px;
+        }
+
+        #T1PT {
             font-size: 50px;
             line-height: 1.15;
             letter-spacing: 1px;

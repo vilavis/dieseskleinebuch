@@ -368,6 +368,11 @@ section {
     flex-wrap: wrap;
 }
 
+.news a {
+    font-weight: 300;
+    font-size: 90%;
+}
+
 .container4 {
     margin: 100px 0px 0px 0px;
     width: 100%;

@@ -700,6 +700,54 @@ section {
     flex-wrap: wrap;
 }
 
+.footer {
+    padding: 10px 0px 20px 0px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer a {
+    color: black;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.impressum-nav {
+    text-align: right;
+    color: white;
+    padding: 50px 30px 50px 30px;
+}
+.impressum-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.impressum-nav a:hover {
+    text-decoration: underline;
+}
+
+.impressum {
+    color: white;
+    padding-left: 60px;
+    background-color: #9141ad;
+    height: fit-content;
+}
+
+.impressum p {
+    line-height: 1.5;
+    font-size: 1rem;
+    width: 80%;
+}
+
+.impressum a {
+    color: white;
+    text-decoration: underline;
+}
+
+.impressum h4 {
+    padding-bottom: 5px;
+}
 /* TYPE */
 h1 {
     font-size: 48px;

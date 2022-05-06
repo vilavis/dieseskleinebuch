@@ -117,6 +117,16 @@ div {
     width: 100%;
 }
 
+.grammatikon {
+    width: 100%;
+    background-color: white;
+}
+
+.grammatikon img {
+    width: 140px;
+    padding: 13px 30px;
+}
+
 header {
     background-color: #9141ad;
     background-image: none;
@@ -428,8 +438,8 @@ section {
 }
 
 .newsletter {
-    border: 1px solid #E78A1B;
-    background-color: #E78A1B;
+    border: 2px solid #E3654D;
+    background-color: #E3654D;
     border-radius: 30px;
     padding: 12px 25px;
     font-size: 14px;
@@ -437,11 +447,12 @@ section {
     color: white;
     margin-bottom: 70px;
     margin-top: 30px;
+    letter-spacing: 1px;
 }
 
 .newsletter:hover {
-    background-color: #E3654D;
-    border: 1px solid #E3654D;
+    background-color: #9141ad;
+    border: 2px solid #9141ad;
     color: white;
     text-decoration: none;
     cursor: pointer;
@@ -934,6 +945,12 @@ p {
 @media only screen and (max-width: 600px) {
     header {
         height: 900px;
+    }
+
+    .grammatikon {
+        display: flex;
+        justify-content: center;
+       
     }
     
     nav {
